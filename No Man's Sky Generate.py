@@ -138,7 +138,7 @@ def Generate_table_select(s1, s2, s3, s4, Generate_table):
             for i in Generate_table_cache1:
                 if s4 not in i[1]:
                     Generate_table_cache1.remove(i)
-        if Generate_table_cache1 ==Generate_table_cache2:
+        if Generate_table_cache1 == Generate_table_cache2:
             break
     return Generate_table_cache1
 
